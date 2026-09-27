@@ -1,0 +1,19 @@
+# Secrets / environment files
+.env
+.env.*
+*.env
+
+# Google Apps Script / clasp local credentials
+.clasp.json
+.clasprc.json
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
