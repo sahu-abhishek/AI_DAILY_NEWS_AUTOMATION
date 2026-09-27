@@ -86,6 +86,8 @@ For each story, Gemini generates:
 
 The prompt also tells Gemini to use the RSS information as the main source and avoid making unsupported claims.
 
+
+
 ## Telegram integration
 
 After Gemini generates the explanations, the script sends the news to my Telegram bot.
@@ -100,20 +102,30 @@ The `sendTopNewsToTelegram()` function runs automatically every day during the c
 
 This means I don't need to manually run the script every morning.
 
-## API keys and security
-
-API keys and Telegram credentials are not stored directly in the source code.
-
-They are stored in Google Apps Script Script Properties:
-
-```text
-BOT_TOKEN
-CHAT_ID
-GEMINI_API_KEY
 
 
-## Author
 
-Abhishek Sahu
 
-BCA — AI & ML
+## Demo
+
+The automation sends the selected AI news directly to Telegram.
+
+Each story includes:
+
+- What happened
+- Why it matters
+- Relevance for AI/ML developers
+- Original article link
+
+
+<img width="821" height="1599" alt="image" src="https://github.com/user-attachments/assets/555a4f0a-fa61-401a-9fc6-6df403984f28" /> 
+
+
+<img width="824" height="1600" alt="image" src="https://github.com/user-attachments/assets/ff7837c0-7c9b-42c7-9555-a615c4c9d8d1" />
+
+
+
+<img width="822" height="1600" alt="image" src="https://github.com/user-attachments/assets/272ca9ac-9265-4ee8-9e22-330d0ca86042" />
+
+
+
