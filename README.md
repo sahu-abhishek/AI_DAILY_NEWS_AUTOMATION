@@ -112,8 +112,6 @@ CHAT_ID
 GEMINI_API_KEY
 
 
-
-
 ## Author
 
 Abhishek Sahu
